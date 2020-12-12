@@ -108,8 +108,6 @@ public class MortgagePage extends BasePage{
             WebElement title = element.findElement(By.xpath("./span[contains(@class, 'label')]"));
             if (title.getText().equalsIgnoreCase(fieldName)){
                 WebElement outValue = element.findElement(By.xpath("./span/span"));
-                if (!value.equalsIgnoreCase(outValue.getText()))
-                    addScreenshot();
                 Assertions.assertEquals(value, outValue.getText(), "Полученное значение отличается от ожидаемой");
                 return this;
             }
