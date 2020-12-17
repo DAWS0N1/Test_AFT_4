@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-import static ru.company.framework.utils.AllureListener.addScreenshot;
 
 
 public class MortgagePage extends BasePage{

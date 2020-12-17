@@ -91,7 +91,7 @@
                     </systemPropertyVariables>
                     <properties>
                         <property>
-                            <name>AllureListener</name>
+                            <name>listener</name>
                             <value>ru.company.framework.utils.AllureListener</value>
                         </property>
                     </properties>
